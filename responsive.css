@@ -1,0 +1,54 @@
+@media (max-width:850PX){
+.top-imgsmp{
+    max-width:650px;
+    max-height: 650px;
+}
+
+.top-img{
+    display: none;
+}
+.center-p p{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.box-right,.box-left{
+    width: 100%;
+}
+
+.mid-box{
+    width: 89%;
+} 
+
+.hurarinomi-message{
+    width: 65%;
+}
+}
+
+@media (min-width:851px){
+.top-img{
+    max-width: 1088px;
+    max-height: 672px;
+}
+
+.top-imgsmp{
+    display: none;
+}
+
+h2{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.center-p{
+    min-width: 820px;
+}
+
+.top-index .hurarinomi-message{
+    width: 300px;
+}
+}
